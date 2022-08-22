@@ -128,7 +128,7 @@ namespace GenerateCrudWithDapper.App
             // 
             this.InputPropertiesEntity.Location = new System.Drawing.Point(13, 60);
             this.InputPropertiesEntity.Name = "InputPropertiesEntity";
-            this.InputPropertiesEntity.Size = new System.Drawing.Size(498, 145);
+            this.InputPropertiesEntity.Size = new System.Drawing.Size(559, 145);
             this.InputPropertiesEntity.TabIndex = 6;
             this.InputPropertiesEntity.Text = "";
             // 
@@ -136,13 +136,13 @@ namespace GenerateCrudWithDapper.App
             // 
             this.InputPropertiesModel.Location = new System.Drawing.Point(12, 299);
             this.InputPropertiesModel.Name = "InputPropertiesModel";
-            this.InputPropertiesModel.Size = new System.Drawing.Size(500, 154);
+            this.InputPropertiesModel.Size = new System.Drawing.Size(560, 154);
             this.InputPropertiesModel.TabIndex = 7;
             this.InputPropertiesModel.Text = "";
             // 
             // InputControllerClassName
             // 
-            this.InputControllerClassName.Location = new System.Drawing.Point(743, 12);
+            this.InputControllerClassName.Location = new System.Drawing.Point(763, 12);
             this.InputControllerClassName.Name = "InputControllerClassName";
             this.InputControllerClassName.Size = new System.Drawing.Size(218, 23);
             this.InputControllerClassName.TabIndex = 9;
@@ -150,7 +150,7 @@ namespace GenerateCrudWithDapper.App
             // ControllerClassName
             // 
             this.ControllerClassName.AutoSize = true;
-            this.ControllerClassName.Location = new System.Drawing.Point(612, 15);
+            this.ControllerClassName.Location = new System.Drawing.Point(632, 15);
             this.ControllerClassName.Name = "ControllerClassName";
             this.ControllerClassName.Size = new System.Drawing.Size(125, 15);
             this.ControllerClassName.TabIndex = 8;
@@ -158,7 +158,7 @@ namespace GenerateCrudWithDapper.App
             // 
             // InputServiceClassName
             // 
-            this.InputServiceClassName.Location = new System.Drawing.Point(743, 76);
+            this.InputServiceClassName.Location = new System.Drawing.Point(763, 76);
             this.InputServiceClassName.Name = "InputServiceClassName";
             this.InputServiceClassName.Size = new System.Drawing.Size(218, 23);
             this.InputServiceClassName.TabIndex = 11;
@@ -166,7 +166,7 @@ namespace GenerateCrudWithDapper.App
             // ServiceClassName
             // 
             this.ServiceClassName.AutoSize = true;
-            this.ServiceClassName.Location = new System.Drawing.Point(611, 79);
+            this.ServiceClassName.Location = new System.Drawing.Point(631, 79);
             this.ServiceClassName.Name = "ServiceClassName";
             this.ServiceClassName.Size = new System.Drawing.Size(109, 15);
             this.ServiceClassName.TabIndex = 10;
@@ -174,7 +174,7 @@ namespace GenerateCrudWithDapper.App
             // 
             // InputRepositoryClassName
             // 
-            this.InputRepositoryClassName.Location = new System.Drawing.Point(743, 145);
+            this.InputRepositoryClassName.Location = new System.Drawing.Point(763, 145);
             this.InputRepositoryClassName.Name = "InputRepositoryClassName";
             this.InputRepositoryClassName.Size = new System.Drawing.Size(218, 23);
             this.InputRepositoryClassName.TabIndex = 13;
@@ -182,7 +182,7 @@ namespace GenerateCrudWithDapper.App
             // RepositoryClassName
             // 
             this.RepositoryClassName.AutoSize = true;
-            this.RepositoryClassName.Location = new System.Drawing.Point(611, 148);
+            this.RepositoryClassName.Location = new System.Drawing.Point(631, 148);
             this.RepositoryClassName.Name = "RepositoryClassName";
             this.RepositoryClassName.Size = new System.Drawing.Size(128, 15);
             this.RepositoryClassName.TabIndex = 12;
@@ -190,7 +190,7 @@ namespace GenerateCrudWithDapper.App
             // 
             // BtnGenerate
             // 
-            this.BtnGenerate.Location = new System.Drawing.Point(458, 561);
+            this.BtnGenerate.Location = new System.Drawing.Point(1013, 560);
             this.BtnGenerate.Name = "BtnGenerate";
             this.BtnGenerate.Size = new System.Drawing.Size(209, 71);
             this.BtnGenerate.TabIndex = 14;
@@ -202,34 +202,34 @@ namespace GenerateCrudWithDapper.App
             // 
             this.LabelWarmController.AutoSize = true;
             this.LabelWarmController.ForeColor = System.Drawing.Color.Red;
-            this.LabelWarmController.Location = new System.Drawing.Point(613, 39);
+            this.LabelWarmController.Location = new System.Drawing.Point(633, 39);
             this.LabelWarmController.Name = "LabelWarmController";
-            this.LabelWarmController.Size = new System.Drawing.Size(591, 15);
+            this.LabelWarmController.Size = new System.Drawing.Size(608, 15);
             this.LabelWarmController.TabIndex = 15;
-            this.LabelWarmController.Text = "Enter only the first name and the system will complete the full name of the class ex:" +
-    " \"Student = StudentController\"";
+            this.LabelWarmController.Text = "Enter only the first name and the system will complete the full name of the class" +
+    " ex: \"Student = StudentController\"";
             // 
             // LabelWarmService
             // 
             this.LabelWarmService.AutoSize = true;
             this.LabelWarmService.ForeColor = System.Drawing.Color.Red;
-            this.LabelWarmService.Location = new System.Drawing.Point(612, 102);
+            this.LabelWarmService.Location = new System.Drawing.Point(632, 102);
             this.LabelWarmService.Name = "LabelWarmService";
-            this.LabelWarmService.Size = new System.Drawing.Size(575, 15);
+            this.LabelWarmService.Size = new System.Drawing.Size(592, 15);
             this.LabelWarmService.TabIndex = 16;
-            this.LabelWarmService.Text = "Enter only the first name and the system will complete the full name of the class ex:" +
-    " \"Student = StudentService\"";
+            this.LabelWarmService.Text = "Enter only the first name and the system will complete the full name of the class" +
+    " ex: \"Student = StudentService\"";
             // 
             // LabelWarmRepository
             // 
             this.LabelWarmRepository.AutoSize = true;
             this.LabelWarmRepository.ForeColor = System.Drawing.Color.Red;
-            this.LabelWarmRepository.Location = new System.Drawing.Point(612, 172);
+            this.LabelWarmRepository.Location = new System.Drawing.Point(632, 172);
             this.LabelWarmRepository.Name = "LabelWarmRepository";
-            this.LabelWarmRepository.Size = new System.Drawing.Size(594, 15);
+            this.LabelWarmRepository.Size = new System.Drawing.Size(611, 15);
             this.LabelWarmRepository.TabIndex = 17;
-            this.LabelWarmRepository.Text = "Enter only the first name and the system will complete the full name of the class ex:" +
-    " \"Student = StudentRepository\"";
+            this.LabelWarmRepository.Text = "Enter only the first name and the system will complete the full name of the class" +
+    " ex: \"Student = StudentRepository\"";
             // 
             // LabelWarmModel
             // 
@@ -237,14 +237,14 @@ namespace GenerateCrudWithDapper.App
             this.LabelWarmModel.ForeColor = System.Drawing.Color.Red;
             this.LabelWarmModel.Location = new System.Drawing.Point(11, 257);
             this.LabelWarmModel.Name = "LabelWarmModel";
-            this.LabelWarmModel.Size = new System.Drawing.Size(572, 15);
+            this.LabelWarmModel.Size = new System.Drawing.Size(589, 15);
             this.LabelWarmModel.TabIndex = 18;
-            this.LabelWarmModel.Text = "Enter only the first name and the system will complete the full name of the class ex:" +
-    " \"Student = StudentModel\"";
+            this.LabelWarmModel.Text = "Enter only the first name and the system will complete the full name of the class" +
+    " ex: \"Student = StudentModel\"";
             // 
             // InputTableName
             // 
-            this.InputTableName.Location = new System.Drawing.Point(752, 219);
+            this.InputTableName.Location = new System.Drawing.Point(772, 219);
             this.InputTableName.Name = "InputTableName";
             this.InputTableName.Size = new System.Drawing.Size(209, 23);
             this.InputTableName.TabIndex = 19;
@@ -252,7 +252,7 @@ namespace GenerateCrudWithDapper.App
             // LabelTableName
             // 
             this.LabelTableName.AutoSize = true;
-            this.LabelTableName.Location = new System.Drawing.Point(609, 224);
+            this.LabelTableName.Location = new System.Drawing.Point(629, 224);
             this.LabelTableName.Name = "LabelTableName";
             this.LabelTableName.Size = new System.Drawing.Size(140, 15);
             this.LabelTableName.TabIndex = 20;
@@ -261,7 +261,7 @@ namespace GenerateCrudWithDapper.App
             // LableTableNameExemplo
             // 
             this.LableTableNameExemplo.AutoSize = true;
-            this.LableTableNameExemplo.Location = new System.Drawing.Point(610, 248);
+            this.LableTableNameExemplo.Location = new System.Drawing.Point(630, 248);
             this.LableTableNameExemplo.Name = "LableTableNameExemplo";
             this.LableTableNameExemplo.Size = new System.Drawing.Size(297, 15);
             this.LableTableNameExemplo.TabIndex = 21;
@@ -269,16 +269,16 @@ namespace GenerateCrudWithDapper.App
             // 
             // InputFieldsTable
             // 
-            this.InputFieldsTable.Location = new System.Drawing.Point(612, 299);
+            this.InputFieldsTable.Location = new System.Drawing.Point(630, 299);
             this.InputFieldsTable.Name = "InputFieldsTable";
-            this.InputFieldsTable.Size = new System.Drawing.Size(504, 154);
+            this.InputFieldsTable.Size = new System.Drawing.Size(592, 154);
             this.InputFieldsTable.TabIndex = 23;
             this.InputFieldsTable.Text = "";
             // 
             // LabelFieldsTable
             // 
             this.LabelFieldsTable.AutoSize = true;
-            this.LabelFieldsTable.Location = new System.Drawing.Point(611, 281);
+            this.LabelFieldsTable.Location = new System.Drawing.Point(629, 281);
             this.LabelFieldsTable.Name = "LabelFieldsTable";
             this.LabelFieldsTable.Size = new System.Drawing.Size(530, 15);
             this.LabelFieldsTable.TabIndex = 22;
@@ -288,7 +288,7 @@ namespace GenerateCrudWithDapper.App
             // LabelPrimaryKeyExemplo
             // 
             this.LabelPrimaryKeyExemplo.AutoSize = true;
-            this.LabelPrimaryKeyExemplo.Location = new System.Drawing.Point(611, 502);
+            this.LabelPrimaryKeyExemplo.Location = new System.Drawing.Point(631, 502);
             this.LabelPrimaryKeyExemplo.Name = "LabelPrimaryKeyExemplo";
             this.LabelPrimaryKeyExemplo.Size = new System.Drawing.Size(318, 15);
             this.LabelPrimaryKeyExemplo.TabIndex = 26;
@@ -297,7 +297,7 @@ namespace GenerateCrudWithDapper.App
             // LabelPrimaryKeyName
             // 
             this.LabelPrimaryKeyName.AutoSize = true;
-            this.LabelPrimaryKeyName.Location = new System.Drawing.Point(610, 477);
+            this.LabelPrimaryKeyName.Location = new System.Drawing.Point(630, 477);
             this.LabelPrimaryKeyName.Name = "LabelPrimaryKeyName";
             this.LabelPrimaryKeyName.Size = new System.Drawing.Size(105, 15);
             this.LabelPrimaryKeyName.TabIndex = 25;
@@ -305,7 +305,7 @@ namespace GenerateCrudWithDapper.App
             // 
             // InputPrimaryKeyName
             // 
-            this.InputPrimaryKeyName.Location = new System.Drawing.Point(722, 472);
+            this.InputPrimaryKeyName.Location = new System.Drawing.Point(742, 472);
             this.InputPrimaryKeyName.Name = "InputPrimaryKeyName";
             this.InputPrimaryKeyName.Size = new System.Drawing.Size(240, 23);
             this.InputPrimaryKeyName.TabIndex = 24;
@@ -313,7 +313,7 @@ namespace GenerateCrudWithDapper.App
             // CheckUtils
             // 
             this.CheckUtils.AutoSize = true;
-            this.CheckUtils.Location = new System.Drawing.Point(337, 498);
+            this.CheckUtils.Location = new System.Drawing.Point(859, 612);
             this.CheckUtils.Name = "CheckUtils";
             this.CheckUtils.Size = new System.Drawing.Size(104, 19);
             this.CheckUtils.TabIndex = 27;
@@ -324,7 +324,7 @@ namespace GenerateCrudWithDapper.App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1231, 662);
+            this.ClientSize = new System.Drawing.Size(1288, 662);
             this.Controls.Add(this.CheckUtils);
             this.Controls.Add(this.LabelPrimaryKeyExemplo);
             this.Controls.Add(this.LabelPrimaryKeyName);
