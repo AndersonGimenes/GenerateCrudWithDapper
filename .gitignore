@@ -2,5 +2,6 @@
 # .NET Core build folders
 bin/
 obj/
+.vs
 
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore
