@@ -206,7 +206,7 @@ namespace GenerateCrudWithDapper.App
             this.LabelWarmController.Name = "LabelWarmController";
             this.LabelWarmController.Size = new System.Drawing.Size(591, 15);
             this.LabelWarmController.TabIndex = 15;
-            this.LabelWarmController.Text = "Enter only the first name and the system will complete the full name od class ex:" +
+            this.LabelWarmController.Text = "Enter only the first name and the system will complete the full name of the class ex:" +
     " \"Student = StudentController\"";
             // 
             // LabelWarmService
@@ -217,7 +217,7 @@ namespace GenerateCrudWithDapper.App
             this.LabelWarmService.Name = "LabelWarmService";
             this.LabelWarmService.Size = new System.Drawing.Size(575, 15);
             this.LabelWarmService.TabIndex = 16;
-            this.LabelWarmService.Text = "Enter only the first name and the system will complete the full name od class ex:" +
+            this.LabelWarmService.Text = "Enter only the first name and the system will complete the full name of the class ex:" +
     " \"Student = StudentService\"";
             // 
             // LabelWarmRepository
@@ -228,7 +228,7 @@ namespace GenerateCrudWithDapper.App
             this.LabelWarmRepository.Name = "LabelWarmRepository";
             this.LabelWarmRepository.Size = new System.Drawing.Size(594, 15);
             this.LabelWarmRepository.TabIndex = 17;
-            this.LabelWarmRepository.Text = "Enter only the first name and the system will complete the full name od class ex:" +
+            this.LabelWarmRepository.Text = "Enter only the first name and the system will complete the full name of the class ex:" +
     " \"Student = StudentRepository\"";
             // 
             // LabelWarmModel
@@ -239,7 +239,7 @@ namespace GenerateCrudWithDapper.App
             this.LabelWarmModel.Name = "LabelWarmModel";
             this.LabelWarmModel.Size = new System.Drawing.Size(572, 15);
             this.LabelWarmModel.TabIndex = 18;
-            this.LabelWarmModel.Text = "Enter only the first name and the system will complete the full name od class ex:" +
+            this.LabelWarmModel.Text = "Enter only the first name and the system will complete the full name of the class ex:" +
     " \"Student = StudentModel\"";
             // 
             // InputTableName
