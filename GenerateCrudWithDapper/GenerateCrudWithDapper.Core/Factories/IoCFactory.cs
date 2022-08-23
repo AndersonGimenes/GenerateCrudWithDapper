@@ -30,12 +30,12 @@ namespace GenerateCrudWithDapper.Core.Factories
             sw.WriteLine($"{StringConstant.Indentation}services.AddScoped<I{classServiceName}, {classServiceName}>();");
             sw.WriteLine($"{StringConstant.Indentation}services.AddScoped<I{classRepositoryName}, {classRepositoryName}>();");
 
-            if (value.GenerateUtils)
+            FlagExecuteUtils.Execute(value, () =>
             {
                 sw.WriteLine($"{StringConstant.Indentation}services.AddScoped<{StringConstant.DapperContext}>();");
                 sw.WriteLine($"{StringConstant.Indentation}services.AddSingleton(new {StringConstant.Mapper}());");
                 sw.WriteLine($"{StringConstant.Indentation}services.Configure<{StringConstant.SettingsOptions}>(Configuration.GetSection(\"ConnectionStrings\"));");
-            }
+            });
 
             sw.Close();
 

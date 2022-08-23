@@ -17,29 +17,26 @@ namespace GenerateCrudWithDapper.Core.Factories
 
         public void Execute(CrudGenerateDto value)
         {
-            if (!value.GenerateUtils)
+            FlagExecuteUtils.Execute(value, () =>
             {
-                _next.Execute(value);
-                return;
-            }
+                var folderName = StringConstant.Utils;
+                FolderUtils.CreateChildFolder(folderName);
 
-            var folderName = StringConstant.Utils;
-            FolderUtils.CreateChildFolder(folderName);
+                var className = StringConstant.SettingsOptions;
 
-            var className = StringConstant.SettingsOptions;
+                var fullPath = FileUtils.CreateFile(folderName, className, "cs");
 
-            var fullPath = FileUtils.CreateFile(folderName, className, "cs");
+                using var sw = new StreamWriter(fullPath);
 
-            using var sw = new StreamWriter(fullPath);
+                sw.WriteLine($"public class {className}");
+                sw.WriteLine("{");
 
-            sw.WriteLine($"public class {className}");
-            sw.WriteLine("{");
+                sw.WriteLine($"{StringConstant.Indentation}public string DefaultConnectionStrings {{ get; set; }}");
 
-            sw.WriteLine($"{StringConstant.Indentation}public string DefaultConnectionStrings {{ get; set; }}");
+                sw.WriteLine("}");
 
-            sw.WriteLine("}");
-
-            sw.Close();
+                sw.Close();
+            });
 
             if (_next is null)
                 return;
