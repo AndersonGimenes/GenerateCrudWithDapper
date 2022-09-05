@@ -20,7 +20,7 @@ namespace GenerateCrudWithDapper.Core.Factories
             var folderName = StringConstant.IoC;
             FolderUtils.CreateChildFolder(folderName);
 
-            var fullPath = FileUtils.CreateFile(folderName, folderName, "txt");
+            var fullPath = FileUtils.CreateFile(folderName, folderName, "cs");
 
             var classServiceName = $"{value.ServiceClassName}{StringConstant.Service}";
             var classRepositoryName = $"{value.RepositoryClassName}{StringConstant.Repository}";

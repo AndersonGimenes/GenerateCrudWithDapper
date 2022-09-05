@@ -23,7 +23,7 @@ namespace GenerateCrudWithDapper.Core.Factories
             FolderUtils.CreateChildFolder(folderName);
 
             var tableName = $"{value.TableName}";
-            var fullPath = FileUtils.CreateFile(folderName, tableName, "txt");
+            var fullPath = FileUtils.CreateFile(folderName, tableName, "sql");
             var pkProperties = value.PrimaryKeyNameAndField.Split("-");
 
             var contents = value.PropertiesTable.ConvertStringArrayToListKeyValuePair();
